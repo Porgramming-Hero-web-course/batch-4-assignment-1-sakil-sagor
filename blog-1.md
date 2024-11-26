@@ -21,21 +21,24 @@ When a function can accept different types of input (like a string or number).
 Intersection Types
 An intersection type combines multiple types into one. This means a variable must have all the types at once.
 
-Example:
+### Example:
+
+```typescript
 interface Person {
-name: string;
+  name: string;
 }
 
 interface Contact {
-email: string;
+  email: string;
 }
 
 type Employee = Person & Contact;
 
 const employee: Employee = {
-name: "John",
-email: "john@example.com",
+  name: "John",
+  email: "john@example.com",
 };
+```
 
 Here, the Employee type needs to have both name and email.
 
