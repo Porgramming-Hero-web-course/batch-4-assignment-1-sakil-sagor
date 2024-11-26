@@ -16,7 +16,12 @@ value = 42; // Also valid
 
 In this example, value can be either a string or a number.
 
-Use Case:
+## Intersection Types
+
+An **intersection type** combines multiple types into one. This means a variable must have all the types at once.
+
+# Use Case:
+
 When a function can accept different types of input (like a string or number).
 Intersection Types
 An intersection type combines multiple types into one. This means a variable must have all the types at once.
